@@ -1,0 +1,98 @@
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git init
+Reinitialized existing Git repository in D:/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103/.git/
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ ls
+TP_MOD3_1302213103/  TP_MOD3_1302213103.sln
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git add *
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git commit -m "first commit"
+[main (root-commit) 67cd654] first commit
+ 15 files changed, 458 insertions(+)
+ create mode 100644 TP_MOD3_1302213103.sln
+ create mode 100644 TP_MOD3_1302213103/App.config
+ create mode 100644 TP_MOD3_1302213103/Form1.Designer.cs
+ create mode 100644 TP_MOD3_1302213103/Form1.cs
+ create mode 100644 TP_MOD3_1302213103/Program.cs
+ create mode 100644 TP_MOD3_1302213103/Properties/AssemblyInfo.cs
+ create mode 100644 TP_MOD3_1302213103/Properties/Resources.Designer.cs
+ create mode 100644 TP_MOD3_1302213103/Properties/Resources.resx
+ create mode 100644 TP_MOD3_1302213103/Properties/Settings.Designer.cs
+ create mode 100644 TP_MOD3_1302213103/Properties/Settings.settings
+ create mode 100644 TP_MOD3_1302213103/TP_MOD3_1302213103.csproj
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.csproj.AssemblyReference.cache
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git remote add origin https://github.com/RIPO12345/TP_MOD3_1302213103_Placida-Ripo-Naibaho.git
+error: remote origin already exists.
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/RIPO12345/TP_MOD3_1302213103_Placida-Ripo-Naibaho.git'
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ ^C
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git push --set-upstream origin main
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 9.58 KiB | 1.37 MiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RIPO12345/TP_MOD3_1302213103_Placida-Ripo-Naibaho.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git add *
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git commit -m "Tambahan Fitur GUI"
+[main 896559e] Tambahan Fitur GUI
+ 15 files changed, 200 insertions(+), 2 deletions(-)
+ create mode 100644 TP_MOD3_1302213103/Form1.resx
+ create mode 100644 TP_MOD3_1302213103/bin/Debug/TP_MOD3_1302213103.exe
+ create mode 100644 TP_MOD3_1302213103/bin/Debug/TP_MOD3_1302213103.exe.config
+ create mode 100644 TP_MOD3_1302213103/bin/Debug/TP_MOD3_1302213103.pdb
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.Form1.resources
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.Properties.Resources.resources
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.csproj.CoreCompileInputs.cache
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.csproj.FileListAbsolute.txt
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.csproj.GenerateResource.cache
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.csproj.SuggestedBindingRedirects.cache
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.exe
+ create mode 100644 TP_MOD3_1302213103/obj/Debug/TP_MOD3_1302213103.pdb
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD3_1302213103 (main)
+$ git push
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (18/18), 11.94 KiB | 1.49 MiB/s, done.
+Total 18 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/RIPO12345/TP_MOD3_1302213103_Placida-Ripo-Naibaho.git
+   67cd654..896559e  main -> main
